@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4CC9F0;
+}
+
+.container {
+    /* border: 1px solid #000; */
+    background-color: #7209B7;
+}
+
+.header {
+    text-align: center;
+}
+
+h1 {
+    color: #3A0CA3;
+    font-family: 'Orelega One', cursive;
+    text-shadow: 0 0 10px #4895EF,0 0 10px #4895EF,0 0 10px #4895EF;
+    font-size: 5em;
+}
+
+.main {
+    margin: 30px auto;
+    padding: 15px 5px;
+    /* border: 1px solid #000; */
+    font-family: 'PT Serif', serif;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4CC9F0;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.info1, .info2 {
+    width: 45%;
+}
+
+.info1 img, .info2 img {
+    width: 100%;
+}
